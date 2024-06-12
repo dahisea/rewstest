@@ -2,8 +2,7 @@
   "routes": [
     {
       "src": "/(?<id>)",
-      "dest": "https://duckduckgo.com/$id",
-      "external": true
+      "dest": "https://duckduckgo.com/$id"
     }
   ]
 }
