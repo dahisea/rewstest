@@ -2,7 +2,8 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "https://duckduckgo.com/(.*)"
+      "destination": "https://duckduckgo.com/$1",
+      "external": true
     }
   ]
 }
