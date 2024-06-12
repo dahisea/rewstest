@@ -1,7 +1,7 @@
 {
   "routes": [
     {
-      "src": "/(?<id>[.*])",
+      "src": "/(?<id>.+)",
       "dest": "https://duckduckgo.com/$id"
     }
   ]
