@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/",
-      "destination": "https://netapi.dahiddwy.workers.dev/?ed=2048"
+      "source": "/(.*)",
+      "destination": "https://duckduckgo.com/(.*)"
     }
   ]
 }
