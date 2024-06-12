@@ -1,8 +1,8 @@
 {
   "routes": [
     {
-      "source": "/(?<id>.*)",
-      "destination": "https://duckduckgo.com/$id",
+      "source": "/(?<id>[.*])",
+      "dest": "https://duckduckgo.com/$id",
       "external": true
     }
   ]
