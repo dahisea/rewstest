@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "https://netapi.dahiddwy.workers.dev/"
+    }
+  ]
+}
